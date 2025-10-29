@@ -1,2 +1,2 @@
-# Openclassrooms
-Python projet
+# Projet Python
+Projet Python
