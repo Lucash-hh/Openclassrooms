@@ -31,6 +31,7 @@ def jeu_du_pendu():
 
         if lettre in lettrees_trouvees or lettre in mauvaise_lettres:
             print("Vous avez déjà proposé cette lettre\n")
+            mauvaise_lettres.append(lettre)
             print(mauvaise_lettres)
             continue
 
@@ -60,4 +61,5 @@ while True:
 
     if jouer != "y":
         print("Goodbye")
+
         break
